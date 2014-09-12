@@ -2,10 +2,21 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
-$body-bg:     #2980b9;
-$navbar-inverse-bg:   #ecf0f1;
-$navbar-inverse-link-color: black;
-$brand-primary: #2980b9;
-$jumbotron-bg: #ecf0f1;
+
+
+$body-bg:                          #ecf0f1;
+$navbar-height:                    45px;
+$navbar-default-bg:                white;
+$navbar-default-brand-color:       #c0392b;
+$brand-primary:                    #c0392b;
+$jumbotron-bg:                     white;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
