@@ -17,6 +17,10 @@ $jumbotron-bg:                     white;
 	text-align: center;
 }
 
+.checkbox input[type="checkbox"] {
+  margin-left: 0;
+}
+
 .navbar-brand {
 	font-weight: bold;
 }
